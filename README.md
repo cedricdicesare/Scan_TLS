@@ -30,13 +30,8 @@ pip install tqdm
 Usage
 To run the script, use the following command:
 
-python TLS_Scanner.py <target> [csv]
+python scan_nmap_TLS3.py <target> [csv]
 <target>: Specify the IP address or the IP address range to scan. For example, 192.168.1.1 or 192.168.1.0/24.
 [csv]: Add csv after the target address if you wish to export the results to a CSV file. This parameter is optional.
 Example Command
-python TLS_Scanner.py 192.168.1.1
-Or to export to CSV:
-
-python TLS_Scanner.py 192.168.1.0/24 csv
-The results will be displayed in the console or saved to a tls_scan_results.csv file in the current directory.
-
+python3 Scan_nmap_TLS3.py 192.168.1.0/24 toto.csv
