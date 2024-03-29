@@ -10,6 +10,8 @@ The `TLS_Scanner` script is a Python-based tool that utilizes Nmap to scan speci
 
 ## Installation
 
+***Install python3 and nmap package before launch this script !! **
+
 The script requires Python 3 and the installation of some dependencies. Here's how to install:
 
 1. Ensure you have Python 3 installed on your system. You can verify this by running:
