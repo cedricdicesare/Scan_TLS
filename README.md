@@ -1,22 +1,22 @@
 # TLS Scanner
 
-The `TLS_Scanner` script is a Python-based tool that utilizes Nmap to scan specific hosts or IP address ranges to detect TLS versions and cipher suites in use. It checks the compliance of the cipher suites against current security standards, excluding algorithms considered weak or outdated.
+The `TLS_Scanner` script is a Python-based tool that utilizes Nmap to scan specific hosts or IP address ranges to detect TLS versions, certificates validity, cipher suites in use. It checks the compliance of the cipher suites against current security standards, excluding algorithms considered weak or outdated.
 
 ## Features
 
-- Scans port 443 to detect TLS versions and cipher suites.
-- Checks compliance with current security standards for encryption and hashing algorithms.
+- Scans port 443 to detect TLS versions, certificate validity and cipher suites.
+- Checks compliance with current security standards for encryption, hashing algorithms and also certificate validy.
 - Displays results in a readable table or exports them to a CSV format.
 
 ## Installation
 
-***Install python3 and nmap package before launch this script !! **
+**Install python3 and nmap package before launch this script !! **
 
 The script requires Python 3 and the installation of some dependencies. Here's how to install:
 
-1. Ensure you have Python 3 installed on your system. You can verify this by running:
 
-```bash
+Ensure you have Python 3 installed on your system. You can verify this by running:
+
 python --version
 or
 
